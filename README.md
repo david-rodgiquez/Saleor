@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <p>A GraphQL-powered, single-page dashboard application for <a href="https://github.com/saleor/saleor">Saleor</a>.</p>
+  <p>A GraphQL-powered, single-page dashboard application for Saleor.</p>
 </div>
 
 <div align="center">
@@ -20,22 +20,17 @@
   <a href="https://discord.gg/H52JTZAtSH">💬 Discord</a>
 </div>
 
-<div align="center">
-   <span> • </span>
-  <a href="https://githubbox.com/saleor/saleor-dashboard">🔎 Explore Code</a>
-</div>
-
 ## Prerequisites
 
 - Node.js v18+
-- A running instance of [Saleor](https://github.com/saleor/saleor/)
+- A running instance of [Saleor](https://github.com/david-rodgiquez/Saleor)
 
 ## Development
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/saleor/saleor-dashboard.git
+git clone https://github.com/david-rodgiquez/Saleor
 ```
 
 2. Enter the project directory:
@@ -50,22 +45,8 @@ cd saleor-dashboard
 npm i
 ```
 
-4. Configure the env vars as described in [docs/configuration.md](docs/configuration.md).
-
-5. Start the development server with:
+4. Start the development server with:
 
 ```bash
 npm run dev
 ```
-
-> Note:
-> If you see CORS errors, check [CORS configuration](https://docs.saleor.io/docs/3.x/developer/running-saleor/configuration#allowed_client_hosts) of your Saleor instance or CORS settings in the Cloud Console.
-
-## Docs
-
-- [Configuration ⚙️](docs/configuration.md)
-- [Error tracking ⚠️](docs/error-tracking.md)
-- [Running tests 🏁](docs/running-tests.md)
-- [Usage with Docker 🐳](docs/docker.md)
-- [Sentry adapter 🗼](docs/sentry-adapter.md)
-- [Deployment 🌐](docs/deployment.md)

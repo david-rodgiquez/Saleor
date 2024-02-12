@@ -3,13 +3,12 @@
   "version": "3.19.0-dev",
   "main": "src/index.tsx",
   "repository": {
-    "type": "git",
-    "url": "git://github.com/saleor/saleor-dashboard.git"
+    "type": "git"
   },
   "author": "Saleor Commerce",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/saleor/saleor-dashboard/issues"
+    "url": "https://github.com/david-rodgiquez/Saleor/issues"
   },
   "homepage": "https://saleor.io/",
   "engines": {
